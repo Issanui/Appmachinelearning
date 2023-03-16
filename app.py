@@ -1,17 +1,4 @@
-from numpy.core.numeric import True_
-import streamlit as st
-import pandas as pd
-import numpy as np
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from scikitplot.metrics import plot_roc_curve, plot_confusion_matrix
-from sklearn.metrics import precision_score, recall_score, accuracy_score
-from sklearn.metrics import RocCurveDisplay, ConfusionMatrixDisplay,PrecisionRecallDisplay
-st.set_option('deprecation.showPyplotGlobalUse', False)
-from io import StringIO
+
 
 def main():
     st.title("Application machine learning pour la prediction du churn")
